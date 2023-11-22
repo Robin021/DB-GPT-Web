@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Josefin Sans"', ...defaultTheme.fontFamily.sans],
+        sans: ['"Porsche Next"'],
       },
     },
   },

@@ -116,7 +116,7 @@ const LeftSide = () => {
           <Link href={`/`}>
             <Button
               color="primary"
-              className="w-full bg-gradient-to-r from-[#31afff] to-[#1677ff] dark:bg-gradient-to-r dark:from-[#6a6a6a] dark:to-[#80868f]"
+              className="w-full bg-gradient-to-r from-[#e3272d] to-[#e3272d] dark:bg-gradient-to-r dark:from-[#e3272d] dark:to-[#e3272d]"
               style={{
                 color: '#fff',
               }}

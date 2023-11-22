@@ -110,16 +110,16 @@ const Home: NextPage = () => {
             ))}
           </div>
         </Spin>
-        <div className="mt-8 mb-2">
+        {/* <div className="mt-8 mb-2">
           <ModelSelector
             onChange={(newModel: string) => {
               setModel(newModel);
             }}
           />
-        </div>
-        <div className="flex flex-1 w-full mb-4">
+        </div> */}
+        {/* <div className="flex flex-1 w-full mb-4">
           <CompletionInput loading={loading} onSubmit={submit} />
-        </div>
+        </div> */}
       </div>
     </div>
   );

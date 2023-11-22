@@ -204,19 +204,19 @@ function SideBar() {
   }, []);
 
   useEffect(() => {
-    setLogo(mode === 'dark' ? '/WHITE_LOGO.png' : '/LOGO_1.png');
+    setLogo(mode === 'dark' ? '/WHITE_LOGO.svg' : '/LOGO_1.png');
   }, [mode]);
 
   if (!isMenuExpand) {
     return (
       <div className="flex flex-col justify-between h-screen border-r dark:bg-[#1A1E26] animate-fade animate-duration-300">
         <Link href="/" className="px-2 py-3">
-          <Image src="/LOGO_SMALL.png" alt="DB-GPT" width={63} height={46} className="w-[63px] h-[46px]" />
+          <Image src="/LOGO_SMALL.png" alt="Porsche" width={63} height={75} className="w-[63px] h-[75px]" />
         </Link>
         <div className="border-t border-dashed">
           <Link
             href="/"
-            className="flex items-center justify-center my-4 mx-auto w-12 h-12 bg-gradient-to-r from-[#31afff] to-[#1677ff] dark:bg-gradient-to-r dark:from-[#6a6a6a] dark:to-[#80868f] border-none rounded-full text-white"
+            className="flex items-center justify-center my-4 mx-auto w-12 h-12 bg-gradient-to-r from-[#e3272d] to-[#e3272d] dark:bg-gradient-to-r dark:from-[#e3272d] dark:to-[#e3272d] border-none rounded-full text-white"
           >
             <PlusOutlined className="text-lg" />
           </Link>
@@ -268,7 +268,7 @@ function SideBar() {
       </Link>
       <Link
         href="/"
-        className="flex items-center justify-center mb-4 mx-4 h-11 bg-gradient-to-r from-[#31afff] to-[#1677ff] dark:bg-gradient-to-r dark:from-[#6a6a6a] dark:to-[#80868f] border-none rounded text-white"
+        className="flex items-center justify-center mb-4 mx-4 h-11 bg-gradient-to-r from-[#e3272d] to-[#e3272d] dark:bg-gradient-to-r dark:from-[#e3272d] dark:to-[#e3272d] border-none rounded text-white"
       >
         <PlusOutlined className="mr-2" />
         <span>New Chat</span>
